@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "testproject1",
+	"version": "${version}",
+	"name": "TestProject1",
+	"description": "Our first Minecraft mod!",
+	"authors": [
+		"Chect"
+	],
+	"contact": {
+		"homepage": "https://github.com/Chect/MinecraftMods",
+		"sources": "https://github.com/Chect/MinecraftMods"
+	},
+	"license": "MIT",
+	"icon": "assets/testproject1/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.chect.testproject1.TestProject1"
+		],
+		"client": [
+			"com.chect.testproject1.TestProject1Client"
+		]
+	},
+	"mixins": [
+		"testproject1.mixins.json",
+		{
+			"config": "testproject1.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

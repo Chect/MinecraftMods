@@ -1,3 +1,29 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+*.iml
+*.ipr
+*.iws
+.idea/
+.classpath
+.project
+.settings/
+bin/
+
+# macOS
+.DS_Store
+
+# Fabric
+run/
+
+# Java crash logs
+hs_err_pid*
+replay_pid*
+
+# Claude session files
 .claude/session-state.md
 .claude/session-state.md.bak
 .claude/session-history.log
