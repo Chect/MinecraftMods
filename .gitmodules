@@ -1,0 +1,3 @@
+[submodule "claude-code-toolkit"]
+	path = claude-code-toolkit
+	url = https://github.com/Chect/claude-code-toolkit.git
